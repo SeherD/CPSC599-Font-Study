@@ -1,0 +1,8 @@
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+supervised/arial_images/arial-019.jpg
+unsupervised_data.zip
+unsupervised_synthetic_data.zip
