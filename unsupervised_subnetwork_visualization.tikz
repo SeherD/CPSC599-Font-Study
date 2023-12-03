@@ -1,0 +1,253 @@
+\begin{tikzpicture}
+	\begin{pgfonlayer}{nodelayer}
+		\node [style=none] (25) at (-5, 2) {};
+		\node [style=none] (26) at (-3.5, 2) {};
+		\node [style=none] (27) at (-3.5, 0.5) {};
+		\node [style=none] (28) at (-5, 0.5) {};
+		\node [style=none] (42) at (-2.75, -0.75) {};
+		\node [style=none] (0) at (-8, 1) {};
+		\node [style=none] (1) at (-8, -1) {};
+		\node [style=none] (2) at (-6, -1) {};
+		\node [style=none] (3) at (-6, 1) {};
+		\node [style=none] (4) at (-7, 0) {\footnotesize Input};
+		\node [style=none] (41) at (-4.25, 1.25) {};
+		\node [style=none] (55) at (-3.5, 0) {};
+		\node [style=none] (56) at (-2, 0) {};
+		\node [style=none] (57) at (-2, -1.5) {};
+		\node [style=none] (58) at (-3.5, -1.5) {};
+		\node [style=none] (59) at (-3, -0.5) {};
+		\node [style=none] (60) at (-1.5, -0.5) {};
+		\node [style=none] (61) at (-1.5, -2) {};
+		\node [style=none] (62) at (-3, -2) {};
+		\node [style=none] (63) at (-2.5, -1) {};
+		\node [style=none] (64) at (-1, -1) {};
+		\node [style=none] (65) at (-1, -2.5) {};
+		\node [style=none] (66) at (-2.5, -2.5) {};
+		\node [style=none] (67) at (2, 1.75) {};
+		\node [style=none] (68) at (3, 1.75) {};
+		\node [style=none] (69) at (3, 0.75) {};
+		\node [style=none] (70) at (2, 0.75) {};
+		\node [style=none] (71) at (4.25, -1) {};
+		\node [style=none] (137) at (0.75, -3.25) {\scriptsize Pooling 1};
+		\node [style=none] (157) at (-1, 1.5) {};
+		\node [style=none] (158) at (0, 1.5) {};
+		\node [style=none] (159) at (0, 0.5) {};
+		\node [style=none] (160) at (-1, 0.5) {};
+		\node [style=none] (161) at (0.5, -0.5) {};
+		\node [style=none] (162) at (-0.5, 1) {};
+		\node [style=none] (163) at (0, 0) {};
+		\node [style=none] (164) at (1, 0) {};
+		\node [style=none] (165) at (1, -1) {};
+		\node [style=none] (166) at (0, -1) {};
+		\node [style=none] (167) at (0.5, -0.5) {};
+		\node [style=none] (168) at (1.5, -0.5) {};
+		\node [style=none] (169) at (1.5, -1.5) {};
+		\node [style=none] (170) at (0.5, -1.5) {};
+		\node [style=none] (171) at (1, -1) {};
+		\node [style=none] (172) at (2, -1) {};
+		\node [style=none] (173) at (2, -2) {};
+		\node [style=none] (174) at (1, -2) {};
+		\node [style=none] (175) at (2.25, 1.5) {};
+		\node [style=none] (176) at (3.25, 1.5) {};
+		\node [style=none] (177) at (3.25, 0.5) {};
+		\node [style=none] (178) at (2.25, 0.5) {};
+		\node [style=none] (179) at (2.5, 1.25) {};
+		\node [style=none] (180) at (3.5, 1.25) {};
+		\node [style=none] (181) at (3.5, 0.25) {};
+		\node [style=none] (182) at (2.5, 0.25) {};
+		\node [style=none] (196) at (3.75, -0.5) {};
+		\node [style=none] (197) at (4.75, -0.5) {};
+		\node [style=none] (198) at (4.75, -1.5) {};
+		\node [style=none] (199) at (3.75, -1.5) {};
+		\node [style=none] (200) at (4, -0.75) {};
+		\node [style=none] (201) at (5, -0.75) {};
+		\node [style=none] (202) at (5, -1.75) {};
+		\node [style=none] (203) at (4, -1.75) {};
+		\node [style=none] (204) at (4.25, -1) {};
+		\node [style=none] (205) at (5.25, -1) {};
+		\node [style=none] (206) at (5.25, -2) {};
+		\node [style=none] (207) at (4.25, -2) {};
+		\node [style=none] (279) at (-7, 1.75) {\tiny $256 \times 256$};
+		\node [style=none] (280) at (-3.5, 2.75) {\tiny $62 \times 62 \times 64$};
+		\node [style=none] (282) at (-0.25, 2.75) {\tiny $31 \times 31 \times 64$};
+		\node [style=none] (283) at (3.25, 2.75) {\tiny $31 \times 31 \times 128$};
+		\node [style=none] (496) at (10.5, -3.25) {\scriptsize Unpooling 1};
+		\node [style=none] (497) at (5.25, 1.5) {};
+		\node [style=none] (498) at (6.25, 1.5) {};
+		\node [style=none] (499) at (6.25, 0.5) {};
+		\node [style=none] (500) at (5.25, 0.5) {};
+		\node [style=none] (501) at (6.75, -0.5) {};
+		\node [style=none] (502) at (5.75, 1) {};
+		\node [style=none] (503) at (6.25, 0) {};
+		\node [style=none] (504) at (7.25, 0) {};
+		\node [style=none] (505) at (7.25, -1) {};
+		\node [style=none] (506) at (6.25, -1) {};
+		\node [style=none] (507) at (6.75, -0.5) {};
+		\node [style=none] (508) at (7.75, -0.5) {};
+		\node [style=none] (509) at (7.75, -1.5) {};
+		\node [style=none] (510) at (6.75, -1.5) {};
+		\node [style=none] (511) at (7.25, -1) {};
+		\node [style=none] (512) at (8.25, -1) {};
+		\node [style=none] (513) at (8.25, -2) {};
+		\node [style=none] (514) at (7.25, -2) {};
+		\node [style=none] (515) at (8.25, 2) {};
+		\node [style=none] (516) at (9.75, 2) {};
+		\node [style=none] (517) at (9.75, 0.5) {};
+		\node [style=none] (518) at (8.25, 0.5) {};
+		\node [style=none] (519) at (10.5, -0.75) {};
+		\node [style=none] (520) at (9, 1.25) {};
+		\node [style=none] (521) at (9.75, 0) {};
+		\node [style=none] (522) at (11.25, 0) {};
+		\node [style=none] (523) at (11.25, -1.5) {};
+		\node [style=none] (524) at (9.75, -1.5) {};
+		\node [style=none] (525) at (10.25, -0.5) {};
+		\node [style=none] (526) at (11.75, -0.5) {};
+		\node [style=none] (527) at (11.75, -2) {};
+		\node [style=none] (528) at (10.25, -2) {};
+		\node [style=none] (529) at (10.75, -1) {};
+		\node [style=none] (530) at (12.25, -1) {};
+		\node [style=none] (531) at (12.25, -2.5) {};
+		\node [style=none] (532) at (10.75, -2.5) {};
+		\node [style=none] (534) at (10.25, 2.75) {\tiny $64 \times 64 \times 64$};
+		\node [style=none] (535) at (13, 1) {};
+		\node [style=none] (536) at (13, -1) {};
+		\node [style=none] (537) at (15, -1) {};
+		\node [style=none] (538) at (15, 1) {};
+		\node [style=none] (539) at (14, 0) {\footnotesize Output};
+		\node [style=none] (540) at (14, 1.75) {\tiny $256 \times 256$};
+		\node [style=none] (541) at (14, -3.25) {\scriptsize Deconv.};
+		\node [style=none] (542) at (6.75, 2.75) {\tiny $31 \times 31 \times 64$};
+		\node [style=none] (543) at (14, -3.75) {\scriptsize Layer 2};
+		\node [style=none] (544) at (7, -3.25) {\scriptsize Deconv.};
+		\node [style=none] (545) at (7, -3.75) {\scriptsize Layer 1};
+		\node [style=none] (546) at (4, -3.25) {\scriptsize Conv.};
+		\node [style=none] (547) at (4, -3.75) {\scriptsize Layer 2};
+		\node [style=none] (548) at (-2.75, -3.25) {\scriptsize Conv.};
+		\node [style=none] (549) at (-2.75, -3.75) {\scriptsize Layer 1};
+	\end{pgfonlayer}
+	\begin{pgfonlayer}{edgelayer}
+		\draw (0.center) to (3.center);
+		\draw (3.center) to (2.center);
+		\draw (2.center) to (1.center);
+		\draw (1.center) to (0.center);
+		\draw [style=solid-grey] (28.center)
+			 to (25.center)
+			 to (26.center)
+			 to (27.center)
+			 to cycle;
+		\draw [style=dots] (41.center) to (42.center);
+		\draw [style=solid-grey] (58.center)
+			 to (55.center)
+			 to (56.center)
+			 to (57.center)
+			 to cycle;
+		\draw [style=solid-grey] (62.center)
+			 to (59.center)
+			 to (60.center)
+			 to (61.center)
+			 to cycle;
+		\draw [style=solid-grey] (66.center)
+			 to (63.center)
+			 to (64.center)
+			 to (65.center)
+			 to cycle;
+		\draw [style=solid-grey] (69.center)
+			 to (70.center)
+			 to (67.center)
+			 to (68.center)
+			 to cycle;
+		\draw [style=solid-grey] (159.center)
+			 to (160.center)
+			 to (157.center)
+			 to (158.center)
+			 to cycle;
+		\draw [style=dots] (162.center) to (161.center);
+		\draw [style=solid-grey] (165.center)
+			 to (166.center)
+			 to (163.center)
+			 to (164.center)
+			 to cycle;
+		\draw [style=solid-grey] (167.center)
+			 to (168.center)
+			 to (169.center)
+			 to (170.center)
+			 to cycle;
+		\draw [style=solid-grey] (173.center)
+			 to (174.center)
+			 to (171.center)
+			 to (172.center)
+			 to cycle;
+		\draw [style=solid-grey] (177.center)
+			 to (178.center)
+			 to (175.center)
+			 to (176.center)
+			 to cycle;
+		\draw [style=solid-grey] (181.center)
+			 to (182.center)
+			 to (179.center)
+			 to (180.center)
+			 to cycle;
+		\draw [style=dots] (69.center) to (71.center);
+		\draw [style=solid-grey] (198.center)
+			 to (199.center)
+			 to (196.center)
+			 to (197.center)
+			 to cycle;
+		\draw [style=solid-grey] (200.center)
+			 to (201.center)
+			 to (202.center)
+			 to (203.center)
+			 to cycle;
+		\draw [style=solid-grey] (206.center)
+			 to (207.center)
+			 to (204.center)
+			 to (205.center)
+			 to cycle;
+		\draw [style=solid-grey] (499.center)
+			 to (500.center)
+			 to (497.center)
+			 to (498.center)
+			 to cycle;
+		\draw [style=dots] (502.center) to (501.center);
+		\draw [style=solid-grey] (506.center)
+			 to (503.center)
+			 to (504.center)
+			 to (505.center)
+			 to cycle;
+		\draw [style=solid-grey] (507.center)
+			 to (508.center)
+			 to (509.center)
+			 to (510.center)
+			 to cycle;
+		\draw [style=solid-grey] (511.center)
+			 to (512.center)
+			 to (513.center)
+			 to (514.center)
+			 to cycle;
+		\draw [style=solid-grey] (516.center)
+			 to (517.center)
+			 to (518.center)
+			 to (515.center)
+			 to cycle;
+		\draw [style=dots] (520.center) to (519.center);
+		\draw [style=solid-grey] (524.center)
+			 to (521.center)
+			 to (522.center)
+			 to (523.center)
+			 to cycle;
+		\draw [style=solid-grey] (527.center)
+			 to (528.center)
+			 to (525.center)
+			 to (526.center)
+			 to cycle;
+		\draw [style=solid-grey] (532.center)
+			 to (529.center)
+			 to (530.center)
+			 to (531.center)
+			 to cycle;
+		\draw (535.center) to (538.center);
+		\draw (538.center) to (537.center);
+		\draw (537.center) to (536.center);
+		\draw (536.center) to (535.center);
+	\end{pgfonlayer}
+\end{tikzpicture}
