@@ -68,9 +68,9 @@
 		\node [style=none] (206) at (5.25, -2) {};
 		\node [style=none] (207) at (4.25, -2) {};
 		\node [style=none] (279) at (-7, 1.75) {\tiny $256 \times 256$};
-		\node [style=none] (280) at (-3.5, 2.75) {\tiny $62 \times 62 \times 64$};
-		\node [style=none] (282) at (-0.25, 2.75) {\tiny $31 \times 31 \times 64$};
-		\node [style=none] (283) at (3.25, 2.75) {\tiny $31 \times 31 \times 128$};
+		\node [style=none] (280) at (-4, 2.75) {\tiny $124 \times 124 \times 64$};
+		\node [style=none] (282) at (-0.25, 2.75) {\tiny $62 \times 62 \times 64$};
+		\node [style=none] (283) at (3.25, 2.75) {\tiny $62 \times 62 \times 128$};
 		\node [style=none] (496) at (10.5, -3.25) {\scriptsize Unpooling 1};
 		\node [style=none] (497) at (5.25, 1.5) {};
 		\node [style=none] (498) at (6.25, 1.5) {};
@@ -108,7 +108,7 @@
 		\node [style=none] (530) at (12.25, -1) {};
 		\node [style=none] (531) at (12.25, -2.5) {};
 		\node [style=none] (532) at (10.75, -2.5) {};
-		\node [style=none] (534) at (10.25, 2.75) {\tiny $64 \times 64 \times 64$};
+		\node [style=none] (534) at (10.5, 2.75) {\tiny $124 \times 124 \times 64$};
 		\node [style=none] (535) at (13, 1) {};
 		\node [style=none] (536) at (13, -1) {};
 		\node [style=none] (537) at (15, -1) {};
@@ -116,7 +116,7 @@
 		\node [style=none] (539) at (14, 0) {\footnotesize Output};
 		\node [style=none] (540) at (14, 1.75) {\tiny $256 \times 256$};
 		\node [style=none] (541) at (14, -3.25) {\scriptsize Deconv.};
-		\node [style=none] (542) at (6.75, 2.75) {\tiny $31 \times 31 \times 64$};
+		\node [style=none] (542) at (6.75, 2.75) {\tiny $62 \times 62 \times 64$};
 		\node [style=none] (543) at (14, -3.75) {\scriptsize Layer 2};
 		\node [style=none] (544) at (7, -3.25) {\scriptsize Deconv.};
 		\node [style=none] (545) at (7, -3.75) {\scriptsize Layer 1};
