@@ -130,117 +130,117 @@
 		\draw (3.center) to (2.center);
 		\draw (2.center) to (1.center);
 		\draw (1.center) to (0.center);
-		\draw [style=solid-grey] (28.center)
+		\draw [style=solid-scae] (28.center)
 			 to (25.center)
 			 to (26.center)
 			 to (27.center)
 			 to cycle;
 		\draw [style=dots] (41.center) to (42.center);
-		\draw [style=solid-grey] (58.center)
+		\draw [style=solid-scae] (58.center)
 			 to (55.center)
 			 to (56.center)
 			 to (57.center)
 			 to cycle;
-		\draw [style=solid-grey] (62.center)
+		\draw [style=solid-scae] (62.center)
 			 to (59.center)
 			 to (60.center)
 			 to (61.center)
 			 to cycle;
-		\draw [style=solid-grey] (66.center)
+		\draw [style=solid-scae] (66.center)
 			 to (63.center)
 			 to (64.center)
 			 to (65.center)
 			 to cycle;
-		\draw [style=solid-grey] (69.center)
+		\draw [style=solid-scae] (69.center)
 			 to (70.center)
 			 to (67.center)
 			 to (68.center)
 			 to cycle;
-		\draw [style=solid-grey] (159.center)
+		\draw [style=solid-scae] (159.center)
 			 to (160.center)
 			 to (157.center)
 			 to (158.center)
 			 to cycle;
 		\draw [style=dots] (162.center) to (161.center);
-		\draw [style=solid-grey] (165.center)
+		\draw [style=solid-scae] (165.center)
 			 to (166.center)
 			 to (163.center)
 			 to (164.center)
 			 to cycle;
-		\draw [style=solid-grey] (167.center)
+		\draw [style=solid-scae] (167.center)
 			 to (168.center)
 			 to (169.center)
 			 to (170.center)
 			 to cycle;
-		\draw [style=solid-grey] (173.center)
+		\draw [style=solid-scae] (173.center)
 			 to (174.center)
 			 to (171.center)
 			 to (172.center)
 			 to cycle;
-		\draw [style=solid-grey] (177.center)
+		\draw [style=solid-scae] (177.center)
 			 to (178.center)
 			 to (175.center)
 			 to (176.center)
 			 to cycle;
-		\draw [style=solid-grey] (181.center)
+		\draw [style=solid-scae] (181.center)
 			 to (182.center)
 			 to (179.center)
 			 to (180.center)
 			 to cycle;
 		\draw [style=dots] (69.center) to (71.center);
-		\draw [style=solid-grey] (198.center)
+		\draw [style=solid-scae] (198.center)
 			 to (199.center)
 			 to (196.center)
 			 to (197.center)
 			 to cycle;
-		\draw [style=solid-grey] (200.center)
+		\draw [style=solid-scae] (200.center)
 			 to (201.center)
 			 to (202.center)
 			 to (203.center)
 			 to cycle;
-		\draw [style=solid-grey] (206.center)
+		\draw [style=solid-scae] (206.center)
 			 to (207.center)
 			 to (204.center)
 			 to (205.center)
 			 to cycle;
-		\draw [style=solid-grey] (499.center)
+		\draw [style=solid-scae] (499.center)
 			 to (500.center)
 			 to (497.center)
 			 to (498.center)
 			 to cycle;
 		\draw [style=dots] (502.center) to (501.center);
-		\draw [style=solid-grey] (506.center)
+		\draw [style=solid-scae] (506.center)
 			 to (503.center)
 			 to (504.center)
 			 to (505.center)
 			 to cycle;
-		\draw [style=solid-grey] (507.center)
+		\draw [style=solid-scae] (507.center)
 			 to (508.center)
 			 to (509.center)
 			 to (510.center)
 			 to cycle;
-		\draw [style=solid-grey] (511.center)
+		\draw [style=solid-scae] (511.center)
 			 to (512.center)
 			 to (513.center)
 			 to (514.center)
 			 to cycle;
-		\draw [style=solid-grey] (516.center)
+		\draw [style=solid-scae] (516.center)
 			 to (517.center)
 			 to (518.center)
 			 to (515.center)
 			 to cycle;
 		\draw [style=dots] (520.center) to (519.center);
-		\draw [style=solid-grey] (524.center)
+		\draw [style=solid-scae] (524.center)
 			 to (521.center)
 			 to (522.center)
 			 to (523.center)
 			 to cycle;
-		\draw [style=solid-grey] (527.center)
+		\draw [style=solid-scae] (527.center)
 			 to (528.center)
 			 to (525.center)
 			 to (526.center)
 			 to cycle;
-		\draw [style=solid-grey] (532.center)
+		\draw [style=solid-scae] (532.center)
 			 to (529.center)
 			 to (530.center)
 			 to (531.center)

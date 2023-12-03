@@ -11,4 +11,4 @@
 \tikzstyle{solid-red}=[-, fill=red]
 \tikzstyle{dots}=[-, dotted, thick]
 \tikzstyle{solid-green}=[-, fill=green]
-\tikzstyle{solid-grey}=[-, fill={rgb,255: red,191; green,191; blue,191}]
+\tikzstyle{solid-scae}=[-, fill=red]
